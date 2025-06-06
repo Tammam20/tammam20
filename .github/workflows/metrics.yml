@@ -60,7 +60,7 @@ jobs:
           plugin_lines_repositories_limit: 4
           plugin_lines_sections: base
           plugin_repositories: yes
-          plugin_repositories_featured: my-atomic-os dotfiles
+          plugin_repositories_featured: dotfiles
           plugin_repositories_order: featured, pinned, starred, random
   
   markscribe:
