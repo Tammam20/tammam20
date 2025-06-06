@@ -64,6 +64,7 @@ jobs:
           plugin_repositories_order: featured, pinned, starred, random
   
   markscribe:
+    needs: github-metrics
     runs-on: ubuntu-latest
     permissions:
       contents: write
